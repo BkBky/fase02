@@ -1,0 +1,52 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+  margin-bottom: -20px;
+
+}
+
+.content {
+  width: 768px;
+}
+
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.menu {
+
+ background-color: #808080;
+ display:block;
+ font-size: 20px;
+ font-family: Arial;
+
+}
+.menu ul{
+list-style-type: none;
+
+}
+.menu ul li{
+
+float: right;
+margin: 5px 10px;
+border: 1px solid #666;
+padding-right: 90px;
+border: none;
+}
+
+.menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  margin: 20px 0;
+
+}
+

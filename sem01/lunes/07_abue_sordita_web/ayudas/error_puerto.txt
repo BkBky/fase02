@@ -1,0 +1,20 @@
+bundle install
+
+
+Mi terminal me marcaba un error:
+
+An error occurred while installing eventmachine (1.0.0), and Bundler cannot continue. Make sure that `gem install eventmachine -v '1.0.0'` succeeds before bundling.
+
+Mau me auxili´ço y uso el 
+"ps aux | grep shotgun"
+"kill -9 27235" El numero que va después del 9, se refiere al número que me arroja la consola.
+
+Uso el killing
+
+
+CodeaCamp09s-Mac-mini:deaf_grandma_skeleton codea_mac_09$ shotgun config.ru
+== Shotgun/Thin on http://127.0.0.1:9393/
+Thin web server (v1.7.0 codename Dunder Mifflin)
+Maximum connections set to 1024
+Listening on 127.0.0.1:9393, CTRL+C to stop
+127.0.0.1 - - [28/Feb/2017:10:03:12 -0600] "GET / HTTP/1.1" 200 842 0.0334
